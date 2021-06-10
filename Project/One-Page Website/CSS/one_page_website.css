@@ -19,6 +19,7 @@ body{
     color: #333;
     background-color: #fff;
 }
+
 footer,
 nav {
     display:block;
@@ -154,7 +155,7 @@ display: block;
  ======================================================*/
 
  #home {
-    background: url(./images/background_1.png) no-repeat 50% 50%;
+    background: url(../images/background_1.png) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -171,7 +172,7 @@ display: block;
     .head-main {
         text-shadow: 2px 4px tpx rgba(0, 0, 0, 0.9);
         font-variant: small-caps;
-        color: #fff;
+        color: #f00;
         letter-spacing: 5pt;
         word-spacing: 21pt;
         font-size: 4.5em;
@@ -257,13 +258,13 @@ display: block;
          font-family: 'Raleway', sans-serif;
      }
 
-     .reservation input(type="text") {
+     .reservation input[type="text"] {
          font-size: 15px;
          outline: none;
          font-weight: 600;
          color: #8D8E8F;
          padding: 2% 1% 2% 7%;
-         width: 80%
+         width: 80%;
          border-top: 1px solid #09080D;
          border-right: 2px solid #424549;
          border-bottom: 2px solid #434549;
@@ -359,3 +360,8 @@ display: block;
                 width: 1170px; 
         }
     }
+
+
+
+
+
